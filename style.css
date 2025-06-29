@@ -2,6 +2,12 @@
     color: rgb(192, 192, 192);
 }
 
+.linkstyle {
+    background-color: #ffffff;
+    color: black;
+    font-weight: 200;
+}
+
 @font-face {
     font-family: 'Orbitron';
     src: url('Orbitron/Orbitron-VariableFont_wght.ttf');
