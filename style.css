@@ -1,3 +1,8 @@
 .summarysecondary{
     color: rgb(192, 192, 192);
 }
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url('Orbitron/Orbitron-VariableFont_wght.ttf');
+}
