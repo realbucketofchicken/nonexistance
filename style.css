@@ -1,14 +1,48 @@
+@font-face {
+    font-family: 'Orbitron';
+    src: url('Orbitron/Orbitron-VariableFont_wght.ttf');
+}
+
+*{
+    background-color: #06050d; 
+    font-family: Orbitron;
+}
+
 .summarysecondary{
     color: rgb(192, 192, 192);
 }
 
-.linkstyle {
+.link {
     background-color: #ffffff;
     color: black;
     font-weight: 200;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px 0px 10px 00px;
 }
 
-@font-face {
-    font-family: 'Orbitron';
-    src: url('Orbitron/Orbitron-VariableFont_wght.ttf');
+@media only screen and (max-width: 1199px) /* Mobile */
+{
+    
+}
+
+@media only screen and (min-width: 1200px) 
+{
+    .content
+    {
+        display: flex;
+        width: 1200px;
+        margin:auto;
+        flex-direction: row;
+    }
+
+    .main
+    {
+        flex:2.5;
+    }
+
+    .pages
+    {
+        flex:1;
+    }
 }

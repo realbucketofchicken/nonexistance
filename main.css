@@ -1,0 +1,33 @@
+
+
+@media only screen and (max-width: 1199px) /* Mobile */
+{
+    .intro{
+        margin: 30px;
+    }
+}
+
+@media only screen and (min-width: 1200px) 
+{
+    .intro
+    {
+        width: 60%;
+        margin:auto;
+
+        border-left: solid 10px;
+        border-bottom-left-radius: 50px;
+    }
+}
+
+.intro{
+    color: #ffffff; 
+    font-size: large;
+    text-align: center;
+    
+    border-bottom: double;
+    border-width: 10px;
+    
+    padding-bottom: 20px;
+
+    margin-bottom: 10%;
+}
